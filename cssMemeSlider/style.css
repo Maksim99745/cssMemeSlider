@@ -18,13 +18,15 @@
     align-items: center;
 
     margin: 0 auto;
-    background-color:rgb(63, 63, 88);
+    background-color:rgb(182, 169, 169);
     }
 
     .slider-wrapper {
       margin-top: 3%;
       width: 30%;
       overflow: hidden;
+      background-color:rgb(63, 63, 88);
+      border-radius: 0.3em;
     }
 
     .slides-line {
@@ -40,8 +42,10 @@
       display: flex;
       justify-content: space-between;
       margin-top: 2%;
+      margin-bottom: 1%;
+      padding-left: 1%;
 
-      height: 18%;
+      height: 17%;
     }
 
     .text-block {
@@ -49,30 +53,38 @@
     }
 
     .meme-describhion {
-      font-size: 0.9em;
+      font-size: 0.8em;
       padding: 0;
       margin: 0;
     }
 
     .dots-block {
       display: flex;
-      width: 24%;
+      width: 4em;
+      height: 1em;
    }
     .dot-conteiner {
-      width: 25%;
-      height: 25%;
+      width: 1em;
+      height: 1em;
+      
       cursor: pointer;
     }
 
     .dot {
-      width: 65%;
-      height: 65%;
+      width: 0.7em;
+      height: 0.7em;
+      
       border-radius: 100%;
       background-color:rgb(111, 111, 226);
     }
 
     .dot:hover {
       background-color: aliceblue;
+    }
+
+    .active-dot {
+      border: aliceblue solid 0.1em;
+      background-color:rgb(63, 63, 88);
     }
 
 
