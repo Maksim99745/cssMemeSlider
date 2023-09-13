@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', function(){
-    alert('i live')
-    });
-
 const sliderLine = document.querySelector('.slides-line')
 const dots = document.querySelectorAll('.dot-conteiner')
 const centerOfDots = document.querySelectorAll('.dot')
