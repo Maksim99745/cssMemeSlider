@@ -127,12 +127,15 @@
       }
     }  
 
-  @media (max-width: 1023px) {
+    @media (min-width: 769px) {
+      .dot:hover {
+        background-color: aliceblue;
+      }
+    }  
+
+  @media (max-width: 1100px) {
     .slider-wrapper {
       width: 48%;
-    }
-    .dot:hover {
-      background-color: aliceblue;
     }
   }  
 
