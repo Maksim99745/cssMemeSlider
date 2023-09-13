@@ -114,9 +114,6 @@
       background-color:rgb(111, 111, 226);
     }
 
-    .dot:hover {
-      background-color: aliceblue;
-    }
 
     .active-dot {
       border: aliceblue solid 0.1em;
@@ -130,9 +127,12 @@
       }
     }  
 
-  @media (max-width: 1150px) {
+  @media (max-width: 1023px) {
     .slider-wrapper {
       width: 48%;
+    }
+    .dot:hover {
+      background-color: aliceblue;
     }
   }  
 
