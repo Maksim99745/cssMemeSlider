@@ -7,6 +7,22 @@ let position = 0;
 let dotIndex = 1;
 let describtionIndex = 0;
 
+function fadeOutAnimation() {
+
+    document.querySelector('.related-meme-describtion').classList.add('fadeOut')
+    setTimeout(() => {
+        document.querySelector('.related-meme-describtion').classList.remove('fadeOut')
+        }, 2000);
+}
+
+function fadeInAnimation() {
+
+    document.querySelector('.related-meme-describtion').classList.add('fadeIn')
+    setTimeout(() => {
+        document.querySelector('.related-meme-describtion').classList.remove('fadeIn')
+        }, 1900);
+}
+
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
@@ -20,10 +36,18 @@ dots.forEach((dot, index) => {
 
         centerOfDots[dotIndex].classList.add('active-dot')
 
-        for (describtion of describtions) {
-            describtion.classList.remove('related-meme-describtion')
-        }
-        describtions[dotIndex].classList.add('related-meme-describtion')
+        fadeOutAnimation()
 
+        setTimeout(() => {
+            for (describtion of describtions) {
+                describtion.classList.remove('related-meme-describtion')
+                describtion.classList.remove('fadeOut')
+
+            }
+            describtions[dotIndex].classList.add('related-meme-describtion')
+            fadeInAnimation()
+            }, 1890);
+        
+       
     })
 } )

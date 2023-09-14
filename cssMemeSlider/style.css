@@ -27,6 +27,14 @@
     }
   }
 
+  .fadeOut {
+    animation: fadeOut 1.9s;
+  }
+
+  .fadeIn {
+    animation: fadeIn 1.9s;
+  }
+
   body {
     background-color:rgb(182, 169, 169);
   }
@@ -87,7 +95,6 @@
       padding: 0;
       margin: 0;
       display: none;
-      animation: fadeIn 2s;
     }
 
     .related-meme-describtion {
