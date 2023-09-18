@@ -148,52 +148,52 @@
     }
 
 
-    #button-one:checked ~ .s1{
+    #button-one:checked ~ .slides-line .s1{
       margin-left: 0;
     }
 
-    #button-two:checked ~ .s1{
+    #button-two:checked ~ .slides-line .s1{
       margin-left: -25%;
     }
-    #button-three:checked ~ .s1{
+    #button-three:checked ~ .slides-line .s1{
       margin-left: -50%;
     }
-    #button-four:checked ~ .s1{
+    #button-four:checked ~ .slides-line .s1{
       margin-left: -75%;
     }
 
 
-    .slides-line:has(#button-one:checked) ~ .dots-and-discribtions-flex .d1{
+    #button-one:checked ~ .dots-and-discribtions-flex .d1{
       margin-left: 0;
     }
 
-    .slides-line:has(#button-two:checked) ~ .dots-and-discribtions-flex .d1{
+    #button-two:checked ~ .dots-and-discribtions-flex .d1{
       margin-left: -25%;
     }
-    .slides-line:has(#button-three:checked) ~ .dots-and-discribtions-flex .d1{
+    #button-three:checked ~ .dots-and-discribtions-flex .d1{
       margin-left: -50%;
     }
-    .slides-line:has(#button-four:checked) ~ .dots-and-discribtions-flex .d1{
+    #button-four:checked ~ .dots-and-discribtions-flex .d1{
       margin-left: -75%;
     }
 
-    .slides-line:has(#button-one:checked) ~ .dots-and-discribtions-flex .dot1{
+    #button-one:checked ~ .dots-and-discribtions-flex .dot1{
       border: aliceblue solid 0.1em;
       background-color:rgb(63, 63, 88);
       transition: 1s;
     }
 
-    .slides-line:has(#button-two:checked) ~ .dots-and-discribtions-flex .dot2{
+    #button-two:checked ~ .dots-and-discribtions-flex .dot2{
       border: aliceblue solid 0.1em;
       background-color:rgb(63, 63, 88);
       transition: 1s;
     }
-    .slides-line:has(#button-three:checked) ~ .dots-and-discribtions-flex .dot3{
+    #button-three:checked ~ .dots-and-discribtions-flex .dot3{
       border: aliceblue solid 0.1em;
       background-color:rgb(63, 63, 88);
       transition: 1s;
     }
-    .slides-line:has(#button-four:checked) ~ .dots-and-discribtions-flex .dot4{
+    #button-four:checked ~ .dots-and-discribtions-flex .dot4{
       border: aliceblue solid 0.1em;
       background-color:rgb(63, 63, 88);
       transition: 1s;
