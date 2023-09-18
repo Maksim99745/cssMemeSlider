@@ -67,7 +67,6 @@
 
     .slides-line {
       display: flex;
-      position: relative;
       width: 400%;
     }
 
@@ -138,7 +137,7 @@
     }
 
     .button {
-      position: absolute;
+      display: none;
       z-index: -1;
       opacity: 0;
     }
