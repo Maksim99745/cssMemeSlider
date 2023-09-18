@@ -1,0 +1,15 @@
+[33m00d69e4[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m fix: delete pseudo class :has due to firefox issues (Mon, Sep 18, 2023 21:05:00 AM)
+[33m1b7b7ab[m fix: add css styles for slider without JS
+[33mf4cc191[m fix: delete index.js for fix my wrong comprehention of the task
+[33m93f2bcb[m fix: fixed fadeOut effect (Mon, Sep 14, 2023 10:59:00 AM)
+[33m63d404a[m fix: edit third meme describtion (Mon, Sep 13, 2023 16:02:00 PM)
+[33ma4e3c24[m fix: fixed apperation for firefox (Mon, Sep 13, 2023 15:50:00 PM)
+[33m4a34998[m fix: fixed :hover pseudo class (Mon, Sep 13, 2023 12:54:00 PM)
+[33m2a75580[m fix: delete :hover from mobile-version (Mon, Sep 13, 2023 12:42:00 PM)
+[33mc46d9d8[m fix: change fourth meme and fix width (Mon, Sep 13, 2023 12:14:00 PM)
+[33m1834189[m feat: add js solution of slider (Tue, Sep 12, 2023 19:50:0 0 PM)
+[33m597957a[m feat: add dots active styles and start js code (Tue, Sep 12, 2023 17:13:00 PM)
+[33m76bc06f[m feat: add basic CSS styles (Tue, Sep 12, 2023 16:48:00 PM )
+[33mdbde851[m feat: add html structure (Tue, Sep 12, 2023 15:40:00 PM)
+[33me0f2d64[m init: start cssMemeSlider-task (Tue, Sep 12, 2023 12:18:00 PM)
+[33m156cb64[m Initial commit
