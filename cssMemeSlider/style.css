@@ -226,18 +226,17 @@
     }
 
     .dots-and-discribtions-flex {
-        flex-direction: column;
+      flex-direction: column-reverse;
+      align-items: start;
     }
     .dots-block{
+      align-self: center;
       order: 1;
     }
 
     .text-block {
         align-self: start;
-    }
-
-    .meme-describtion {
-      text-align: center;
+        padding-left: 0.2em;
     }
 
     }
